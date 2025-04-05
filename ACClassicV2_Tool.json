@@ -1,0 +1,57 @@
+{
+    "data": [
+        {
+            "description": "Wire EDM",
+            "expressions": {
+                "tool_description": "'Wire EDM'",
+                "tool_kerfWidth": ".325mm",
+                "tool_nozzleDiameter": ".25mm",
+                "tool_unit": "'millimeters'",
+                "tool_vendor": "'AgieCharmilles'"
+            },
+            "geometry": {
+                "CW": 0.325,
+                "JET_HEAD_CLEARANCE": 1,
+                "JET_NOZZLE_DIAMETER": 0.25
+            },
+            "guid": "0dd385ce-0019-43b1-8c51-fb81c009833a",
+            "post-process": {
+                "comment": "",
+                "diameter-offset": 1,
+                "length-offset": 1,
+                "manual-tool-change": false,
+                "number": 1
+            },
+            "product-id": "",
+            "product-link": "",
+            "start-values": {
+                "presets": [
+                    {
+                        "assistGas": "Air",
+                        "cutHeight": 1.5,
+                        "cutPower": 30,
+                        "guid": "62f31ebc-a70f-4203-a35d-24591aa0ff0b",
+                        "machineQualityControl": "manual",
+                        "material": {
+                            "category": "all",
+                            "query": "",
+                            "use-hardness": false
+                        },
+                        "name": "Default preset",
+                        "pierceHeight": 4,
+                        "piercePower": 30,
+                        "pierceTime": 1,
+                        "pressure": 4,
+                        "v_f": 1000,
+                        "v_f_leadIn": 1000,
+                        "v_f_leadOut": 1000
+                    }
+                ]
+            },
+            "type": "plasma cutter",
+            "unit": "millimeters",
+            "vendor": "AgieCharmilles"
+        }
+    ],
+    "version": 33
+}
