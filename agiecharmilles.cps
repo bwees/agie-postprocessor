@@ -1,6 +1,6 @@
 description = "AgieCharmilles AC Classic V2 Post Processor";
 vendor = "Brandon Wees";
-vendorUrl = "https:/bwees.io";
+vendorUrl = "https://bwees.io";
 legal = "Copyright (C) 2025 by Brandon Wees. All rights reserved.";
 certificationLevel = 2;
 minimumRevision = 24000;
