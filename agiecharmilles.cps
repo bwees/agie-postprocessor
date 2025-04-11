@@ -26,7 +26,7 @@ allowedCircularPlanes = 1 << PLANE_XY; // only XY
 var gFormat = createFormat({prefix:"G", decimals:0, minDigitsLeft:2});
 var mFormat = createFormat({prefix:"M", decimals:0, minDigitsLeft:2});
 
-var xyzFormat = createFormat({decimals:(unit == MM ? 3 : 4), forceDecimal:true});
+var xyzFormat = createFormat({decimals:(unit == MM ? 4 : 5), forceDecimal:true});
 var abcFormat = createFormat({decimals:3, forceDecimal:true, scale:DEG});
 
 var xOutput = createVariable({prefix:"X", decimals: 1, forceDecimal: true}, xyzFormat);
